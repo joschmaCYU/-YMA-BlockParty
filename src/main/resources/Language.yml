@@ -1,0 +1,101 @@
+CouldNotRemoveDanceFloor: Could not remove dance floor!
+notEnoughtPlayer: "&cWaiting for more players..."
+putFirstLoc: You have put the first location
+putSecondLoc: You have put the second location
+notFinished: The arena is not finished
+appreciateTimeNegative: The appreciate time is negative
+baseRemoveFloorTimeNegative: The base remove floor time is negative
+danceFloorCuboidIsNull: The dance floor cuboid is null
+danceFloorFloorMaterialsIsNull: The dance floor floor materials is null
+durationPowerUpNegative: The duration power up is negative
+fileIsNull: The file is null
+levelOfPowerUpNegative: The level of power up is negative
+lobbySpawnNull: The lobby spawn is not set
+maxNumberOfRoundNegative: The max number of round is negative
+maxPlayerLowerThanMinPlayer: The number of maximum player is lower than the number of minimum player
+minPlayerNegative: The minimum number of player is negative
+powerUpHeadNull: The power up head is null
+powerUpNameNull: The power up name is null
+rangeToCatchPowerupNegative: The range to catch the power up is negative
+regenerateBlockTimeNegative: The regenerate block time is negative
+removeFloorTimeNegative: The remove floor time is negative
+createdArena: You have succesfully created an arena
+arenaAlreadyExists: This arena already exists
+deletedArena: You have succesfully deleted the arena
+finished: You have put the finish setting at
+lobbySpawn: You have succesfully created the spawn lobby
+createdArenaCuboid: You have succesfully created the dance area
+notAllowedToSendMessage: "&cYou cannot send this command right now!"
+gotPowerUp: "&3You found a %bpm_power_up% &b&lPOWERUP!"
+winnerFallOf: You are so tired of winning the game that you fall of be carful
+playerFallOfInClearing: Watch your steps !
+noBlockFoundInLookingDirection: No sign found where you looking
+succesfullySetSign: You have succesfully set a sign
+playerFallOfInWaitClear: Be carful if you play like this you are going to loose quickly
+toManyPlayers: There are to many players you can not join
+gameAlreadyStarted: The game has already started
+signAlreadyAdded: This sign was already added
+noExitSpawn: You need to set the exit spawn
+setExitSpawn: You have succesfully set exit spawn
+noArenaCuboid: There is no arena zone
+youHaveTobeInAGameToExecuteThisCommand: You have to be in a game to execute this command
+noGameFound: No game found !
+gameOnMaxPlayerStarting: The game reached the maximum number of player. Starting !
+youAreToManyToJoinInYourSquad: You are to many in your squad you can not join the game !
+Waiting: Waiting
+WaitLobbyTimer: "&eThe party starts in &c%bpm_wait_lobby_timer% &eseconds"
+LeaveSlimeBall: Leave
+SongSelector: Song Selector
+ChoseSongGUI: Choose Song GUI
+YouHaveVotedForTheSong: You have voted for the song %bpm_song_name%
+YouHaveFinishedPlace: You have finished place %bpm_place%
+PowerUpSpeed: "&eSpeed"
+PowerUpJump_Boost: "&eJump Boost"
+PowerUpSlow_Falling: "&eSlow Falling"
+Stop: "&f&lSTOP&c&l"
+JoinGame: "%player_name% has joined the game (%bpm_number_of_player% / %bpm_maximum_player%)"
+LeaveGame: "%player_name% has left the game (%bpm_number_of_player_minus% / %bpm_maximum_player%)"
+NoPermission: You do not have the permission to do that
+YouWin: "&l&aYou Win"
+StartGameTitle: "&l&eBLOCKPARTY"
+StartGameSubtitle: "Prepare to &cDANCE!"
+YouDiedTitle: "&l&cYOU DIED!"
+YouDiedTitleSubtitle: "&fBetter luck next time!"
+ScoreboardTitle: "&l&eBLOCKPARTY"
+PlayerHiderText: Player Hider
+PlayerHiderVisible: VISIBLE
+PlayerHiderHidden: HIDDEN
+PlayerHiderVisibleText: Players are now Visible
+PlayerHiderHiddenText: Players are now Hidden
+PowerUpSpawned: "&dA powerup has &d&lSPAWNED!"
+PowerUpCollect: "&3Walk into it to collect!"
+PowerUpCollector: "&9%player_name% &8collected a &b&lPOWERUP!"
+ColourRainItemName: "&bC&ao&el&6o&cu&4r &3Rain &7(Right-Click)"
+PowerUpRain: "&bC&ao&el&6o&cu&4r &3Rain"
+LeapItemName: "&aLeap &7(Right-Click)"
+PowerUpLeap: "&aLeap"
+PowerUpRandomTP: "&bRandom Teleport"
+PlayerEliminatedMessage: "&c&lELIMINATED!"
+CowName: "&cExplosive Cow"
+PowerUpNightVision: "&aNight Vision"
+PowerUpPlayerSwap: "&aPowerUpPlayerSwap"
+YouHaveLeft: You have left the game
+StartTitle: "&l&eBLOCKPARTY"
+StartUnderTitle: "Prepare to &cDANCE!"
+SuccessfullyAddedCustomDanceFloor: You have successfully added a custom dance floor to the arena
+TypeCustomDanceFloorName: Type the name of the custom dance floor you want to add to the arena
+AddedArenaCuboid: You have added an arena zone to the arena
+DanceFloorAlreadyExist: This dance floor already exist if you want to modify it delete it and create another
+AlreadyCreatingDanceZone: You are already creating the dance zone
+SuccessfullyDeletedCustomDanceFloor: You have deleted the custom dance floor
+DanceFloorNotExist: This dance floor does not exist
+CreatedCustomDanceCuboid: You have created a custom dance floor
+SuccessfullyRemovedCustomDanceFloor: You have successfully removed the custom dance floor from the arena
+NumericsAreNotAllowed: You can not use numerics they are not allowed
+Retry: Please retry
+PausedGame: The game is paused!
+NotValidName: This name is not valid
+StateWaiting: Waiting
+StateInGame: In Game
+StateClearing: Clearing
+StatePaused: Paused

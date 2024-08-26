@@ -1,0 +1,9 @@
+name: BlockParty
+version: 1.52
+main: fr.joschma.BlockParty.BPM
+api-version: 1.13
+authors: [ joschma ]
+description: Block Party mini-game plugin
+softdepend: [NoteBlockAPI, Parties, PlaceholderAPI, Multiverse-Core, MCJukebox, OpenAudioMC]
+
+commands:
