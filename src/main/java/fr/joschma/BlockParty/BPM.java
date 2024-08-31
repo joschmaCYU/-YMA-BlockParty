@@ -158,7 +158,23 @@ public class BPM extends JavaPlugin {
 
     public BPM() {
         String packet = Bukkit.getServer().getClass().getPackage().getName();
-        version = Integer.valueOf(packet.replace(".", ",").split(",")[3].split("_")[1]);
+        String[] parts = packet.replace(".", ",").split(",");
+        
+        if (parts.length > 3) {
+            String versionPart = parts[3];
+            String[] versionSplit = versionPart.split("_");
+            
+            if (versionSplit.length > 1) {
+                version = Integer.valueOf(versionSplit[1]);
+            } else {
+                version = -1; // def/err val
+                Bukkit.getLogger().warning("Could not parse version from package name: " + packet);
+            }
+        } else {
+            version = -1; // def/err val
+            Bukkit.getLogger().warning("Unexpected package structure: " + packet);
+        }
+        
         noteIsEnable = true;
         OpenAudioMcIsEnable = true;
         MCJukeboxIsEnable = true;
