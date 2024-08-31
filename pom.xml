@@ -83,7 +83,7 @@
                                 </filter>
                             </filters>
                             <createDependencyReducedPom>false</createDependencyReducedPom>
-                            <outputFile>C:\Users\josch\Downloads\Mc_Server\server\plugins\BlockParty.jar</outputFile>
+                            <!-- <outputFile>C:\Users\josch\Downloads\Mc_Server\server\plugins\BlockParty.jar</outputFile> -->
                         </configuration>
                     </execution>
                 </executions>
@@ -93,6 +93,17 @@
             <resource>
                 <directory>src/main/resources</directory>
                 <filtering>true</filtering>
+                <excludes>
+                    <exclude>**/*.jar</exclude>
+                    <exclude>**/*.nbs</exclude>
+                </excludes>
+            </resource>
+            <resource>
+                <directory>src/main/resources/Songs</directory>
+                <filtering>false</filtering>
+                <includes>
+                    <include>**/*.nbs</include>
+                </includes>
             </resource>
         </resources>
     </build>
@@ -166,7 +177,7 @@
             <artifactId>openaudiomc-api</artifactId>
             <version>6.10.0</version>
             <scope>system</scope>
-            <systemPath>${project.basedir}\src\main\resources\openaudiomc-api.jar</systemPath>
+            <systemPath>${project.basedir}/src/main/resources/openaudiomc-api.jar</systemPath>
             <type>jar</type>
             <optional>true</optional>
         </dependency>
